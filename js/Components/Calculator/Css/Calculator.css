@@ -1,0 +1,65 @@
+.number {
+    position: relative;
+    left: 35%;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background-color: rgba(32, 165, 136, 0.85);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.resultNumber {
+    width: 125px;
+    height: 30px;
+    top: 20%;
+    position: relative;
+    left: 35%;
+    outline: none;
+    background-color: rgba(22, 121, 99, 0.85);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.params {
+    position: relative;
+    left: 35%;
+    top: 20%;
+    margin-bottom: 3px;
+    padding-left: 15px;
+    background-color: transparent;
+    color: rgb(124, 65, 65);
+    max-width: 100px;
+    margin-right: 1%;
+}
+
+.operands {
+    position: relative;
+    left: 36%;
+    top: 30%;
+    background-color: rgba(82, 207, 155, 0.85);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+    
+}
+
+#point {
+    background-color: rgba(42, 57, 70, 0);
+    position: relative;
+    left: 35%;
+}
+
+.operandButtons {
+    margin: auto;
+}

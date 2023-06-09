@@ -1,0 +1,68 @@
+#addFunction {
+    background-color: rgb(146, 255, 146);
+    width: 149px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    font-size:medium;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    margin-left:700px;
+    box-shadow:0px 0px 3px 2px rgb(190, 190, 190);
+
+}
+
+.params {
+    position: relative;
+    bottom: 750px;
+    left: 350px;
+    padding-left: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    max-width: 75px;
+    height: 20px;
+    background-color: rgba(102, 209, 228, 0.658);
+    border-radius: 5px;
+}
+
+#delete {
+    position: relative;
+    cursor:pointer;
+    bottom: 750px;
+    left: 350px;
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+}
+
+#checkbox0,
+#checkbox1,
+#checkbox2,
+#checkbox3,
+#checkbox4,
+#checkbox5,
+#checkbox6{
+    position: relative;
+    cursor:pointer;
+    bottom: 745px;
+    left: 355px;
+    width: 20px;
+    height: 20px;
+}
+
+#graph2d {
+    text-align: center;
+    justify-content: center;
+}
+
+#canvas {
+    margin-right:770px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px 10px rgb(117, 105, 113);
+    position: flex;
+}
+
+
+

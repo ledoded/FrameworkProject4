@@ -5,71 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <title>Supra</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="js/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="js/Header/Css/Header.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="js/Components/Calculator/Css/Calculator.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="js/Components/Graph2d/Css/Graph2d.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="js/Components/Graph3d/Css/Graph3d.css">
+
+    <title>Framework</title>
 </head>
 <body>
-    <div class="wrapper">
-        <section class="parallax">
-            <div class="parallax_body">
-                <div class="parallax_container_container">
-                    <div class="parallax_label">Toyota</div>
-                    <h1 class="parallax_title"> Supra <h1>
-                </div>
-                <div class="parallax_images images-parallax">
-                    <div class="images-parallax_item">
-                        <div class="images-parallax_supra">
-                    </div>
-                        <div class="images-parallax_girl1">
-                    </div>
-                        <div class="images-parallax_girl2">
-                    </div>
-                        <div class="images-parallax_city">
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <section class="content">
-            <div class="content_container_container">
-                <h2 class="content_title">my site</h2>
-                <div class="content_text">
-                    <div class="menu">
-                        <div class="menu-item" data-content="CalculatorContent">Calculator</div>
-                        <div class="menu-item" data-content="GraphContent">Graph</div>
-                        <div class="menu-item" data-content="RPGContent">Game</div>
-                        <div class="menu-item" data-content="Math3DContent">Math3D</div>
-                    </div>
-                    
-                    <p></p>
-                    <p> </p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                    <p>Эссе Эссе Эссе Эссе Эссе Эссе </p>
-                </div>
-            </div>
-        </section>
-    </div>
-    <script src="css/js/script.js"></script>
+    <script src="js/Template.js"></script>
+    <script src="js/Component.js"></script>
+    <script src="js/Header/HeaderComponent.js"></script>
+    <script src="js/Header/HeaderTemplate.js"></script>
+
+    <script src="js/Components/Calculator/Calculator/types/Complex.js"></script>
+    <script src="js/Components/Calculator/Calculator/types/Matrix.js"></script>
+    <script src="js/Components/Calculator/Calculator/types/Vector.js"></script>
+    <script src="js/Components/Calculator/Calculator/RealCalculator.js"></script>
+    <script src="js/Components/Calculator/Calculator/ComplexCalculator.js"></script>
+    <script src="js/Components/Calculator/Calculator/VectorCalculator.js"></script>
+    <script src="js/Components/Calculator/Calculator/MatrixCalculator.js"></script>
+    <script src="js/Components/Calculator/Calculator/Calculator.js"></script>
+    <script src="js/Components/Calculator/Polynomial/Member.js"></script>
+    <script src="js/Components/Calculator/Polynomial/Polynomial.js"></script>
+    <script src="js/Components/Calculator/Polynomial/PolynomialCalculator.js"></script>
+    <script src="js/Components/Calculator/CalculatorComponent.js"></script>
+    <script src="js/Components/Calculator/calculatorTemplate.js"></script>
+    
+    <script src="js/Components/Graph2D/Canvas.js"></script>
+    <script src="js/Components/Graph2D/UI/UIComponent.js"></script>
+    <script src="js/Components/Graph2D/UI/uiTemplate.js"></script>
+    <script src="js/Components/Graph2D/Graph2DComponent.js"></script>
+    <script src="js/Components/Graph2D/graph2DTemplate.js"></script>
+    <script src="js/Components/Graph2D/Math.js"></script>
+
+    <script src="js/Components/Graph3D/entities/Point.js"></script>
+    <script src="js/Components/Graph3D/entities/Edge.js"></script>
+    <script src="js/Components/Graph3D/entities/Polygon.js"></script>
+    <script src="js/Components/Graph3D/entities/Subject.js"></script>
+    <script src="js/Components/Graph3D/entities/Light.js"></script>
+    <script src="js/Components/Graph3D/Figures/Figure.js"></script>
+    <script src="js/Components/graph3D/figures/cube.js"></script>
+    <script src="js/Components/graph3D/figures/cylinder.js"></script>
+    <script src="js/Components/graph3D/figures/sphere.js"></script>
+    <script src="js/Components/graph3D/figures/ring.js"></script>
+    <script src="js/Components/graph3D/figures/ellipsoid.js"></script>
+    <script src="js/Components/graph3D/figures/onesheetedhyperboloid.js"></script>
+    <script src="js/Components/graph3D/figures/twosheetedhyperboloid.js"></script>
+    <script src="js/Components/graph3D/figures/cone.js"></script>
+    <script src="js/Components/graph3D/figures/ellipticalparaboloid.js"></script>
+    <script src="js/Components/graph3D/figures/hyperbolicparaboloid.js"></script>
+    <script src="js/Components/graph3D/figures/ellipticalcylinder.js"></script>
+    <script src="js/Components/graph3D/figures/hyperboliccylinder.js"></script>
+    <script src="js/Components/graph3D/figures/paraboliccylinder.js"></script>
+
+    <script src="js/components/Graph3D/Graph3d.js"></script>
+    <script src="js/components/Graph3D/Graph3dTemplate.js"></script>
+    <script src="js/components/Graph3D/Graph3dComponent.js"></script>
+
+    <script src="js/App/AppComponent.js"></script>
+    <script src="js/App/AppTemplate.js"></script>
+
+
+    <script src="js/index.js"></script>
+
+    
 </body>
 </html>

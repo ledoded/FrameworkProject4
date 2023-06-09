@@ -1,0 +1,23 @@
+.hide {
+    display: none;
+}
+
+body {
+    position: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background: url("https://phonoteka.org/uploads/posts/2022-02/1645227596_1-phonoteka-org-p-nyudovie-tona-fon-1.jpg");
+    color: rgb(17, 53, 73);
+}
+
+.check {
+    margin: 0 0 0 25px;
+}
+
+.text {
+    font-size: 15pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

@@ -1,0 +1,38 @@
+#Header {
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+}
+
+.app {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.showComponent {
+    position: relative;
+    left: 36.25%;
+    top: 850px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    background-color: rgb(87, 233, 143);
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+
+.showComponent:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 196, 134);
+    transform: scale(1.1);
+    transition: 0.1s;
+    box-shadow: 0px 5px 10px rgb(112, 112, 112);
+}
